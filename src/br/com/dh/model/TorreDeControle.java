@@ -9,6 +9,14 @@ public class TorreDeControle {
 	
 	private List<Voador> voadores = new ArrayList<>();
 	
+	public TorreDeControle() {
+		
+	}
+		
+	public TorreDeControle(List<Voador> voadores) {
+		this.voadores = voadores;
+	}
+
 	public void voemTodos() {
 		
 		for(Voador v : voadores) {

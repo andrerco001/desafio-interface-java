@@ -33,6 +33,7 @@ public class SuperHomem implements Voador {
 		
 		if(experiencia > 0) {
 			System.out.println("Estou voando como um campeão.");
+			System.out.println("Experiência: " + experiencia);
 		}
 	}
 

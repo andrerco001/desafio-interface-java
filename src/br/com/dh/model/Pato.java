@@ -32,8 +32,9 @@ public class Pato implements Voador {
 		
 		energia -= 5;
 		
-		if(energia != 0) {
+		if(energia > 0) {
 			System.out.println("Estou voando como um pato");
+			System.out.println("Energia: " + energia);
 		} else {
 			
 			System.out.println("Não tenho energia suficiente para voar");
